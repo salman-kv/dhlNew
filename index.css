@@ -780,8 +780,7 @@ font-weight: 600;
 }
 .footerdemo{
     width: 100%;
-
-    background-color: aqua;
+    background-color: rgb(194, 194, 194);
     padding: 2rem 5rem;
 
 }
