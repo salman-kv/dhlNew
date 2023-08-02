@@ -22,13 +22,16 @@ html {
     background: linear-gradient(to right, rgb(251, 205, 2), rgb(254, 239, 177));
     padding: 0 12em;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
 }
 
 .nav-bar ul {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+ 
 
 
 }
@@ -96,11 +99,23 @@ html {
     display: none;
     position: relative;
 }
+.allfor{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 1rem;
+    z-index: 10;
+}
+.allfor img{
+    width: 2rem;
+}
+
 
 @media(max-width:992px) {
     
     .main{
         min-height: 10vh;
+        margin-top: 4rem;
     }
 
     .dropdown-container {
@@ -308,10 +323,8 @@ height: 100vh;
     justify-content: space-between;
     align-items: center;
     padding: 0 10rem;
-    z-index: 10;
-    
-    
-    
+    z-index: 10; 
+    margin-top: 6rem;
 
 }
 .rel {
